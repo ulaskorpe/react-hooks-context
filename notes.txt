@@ -1,0 +1,14 @@
+babel: modern js yi eski versiyona çevirir
+jsx elemanına inline style yazılmaz {{ içinde yazılır }}
+
+class based component : code organizasyonu daha kolay , state ve lifecycle kullanılabilir 
+function based component : 
+super : üst class dan gelen props u alt class a copy, bir component yüklendiğinde ilk contructor function çağırılır
+contructor içinde super kullanmak zorundasın
+state değişkenleri sadece setState ile güncellenir, js yöntemleri ile değişkenleri
+
+önce contructor sonra render sonra : 
+
+    componentDidMount(){}  sadece 1 kere çağrılır, veri yükleme apiden istek atma 
+    componentDidUpdate(){} state props değiştiğinde data yükleme işlemleri
+    componentWillUnMount(){} silme işlemleri 
