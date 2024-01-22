@@ -1,5 +1,5 @@
 import React from "react";
-import { Link,NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const NavBar = ()=>{
     return(<nav className="ui raised very padded segment">
@@ -10,6 +10,7 @@ const NavBar = ()=>{
      <button className="ui button"><NavLink to="/image-list">ImageList</NavLink></button>
      <button className="ui button"><NavLink to="/comments">Comments</NavLink></button>
      <button className="ui button"><NavLink to="/about">About</NavLink></button>
+     <button className="ui button"><NavLink to="/contact">Contact</NavLink></button>
 
             </div>
 
